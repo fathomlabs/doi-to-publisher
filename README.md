@@ -23,7 +23,7 @@ npm install doi-to-publisher
 
 ## Usage
 
-`doi2pub` exposes a single function that returns the publisher information for any CrossRef DOI prefix.
+`doi-to-publisher` exposes a single function that returns the publisher information for any CrossRef DOI prefix.
 
 The returned object gives both the publisher and the officially registered DOI prefix owner. Often a single publisher will be responsible for many DOI prefixes, with each prefix belonging to a separate sub-organisation.
 
