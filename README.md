@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>doi-to-publisher</h1>
-  <h2>WIP - nothing to see here</h2>
+  <h2>Find the publisher and owner associated with any CrossRef DOI prefix</h2>
   <p>
     <a href="https://npmjs.com/packages/doi-to-publisher" alt="npm package">
       <img src="https://img.shields.io/npm/v/doi-to-publisher.svg?style=flat-square">
@@ -23,7 +23,7 @@ npm install doi-to-publisher
 
 ## Usage
 
-`doi2pub` exposes a single function that returns the publisher information for any DOI prefix.
+`doi2pub` exposes a single function that returns the publisher information for any CrossRef DOI prefix.
 
 The returned object gives both the publisher and the officially registered DOI prefix owner. Often a single publisher will be responsible for many DOI prefixes, with each prefix belonging to a separate sub-organisation.
 
